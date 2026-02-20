@@ -10,8 +10,11 @@ public class App {
 		
 		ApplicationContext context=new ClassPathXmlApplicationContext("com/config/annotations/spring.xml");
 		
-		Instructor instructor=(Instructor)context.getBean("instructor");
-		System.out.println(instructor);
+		Instructor instructor=(Instructor)context.getBean("inst");
+		System.out.println(instructor.hashCode());
+
+		Instructor instructor2=(Instructor)context.getBean("inst");
+		System.out.println(instructor2.hashCode());
 
 	}
 
