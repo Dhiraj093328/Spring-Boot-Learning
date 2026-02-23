@@ -12,7 +12,7 @@ public class App {
 		
 		Question q=(Question) context.getBean("q1");
 		
-		q.display();
+		((Object) q).display();
 		
 
 	}
