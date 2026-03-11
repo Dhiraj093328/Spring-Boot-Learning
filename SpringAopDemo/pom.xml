@@ -46,7 +46,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>5.0.10.RELEASE</version>
+			<version>5.3.20</version>
 			<scope>compile</scope>
 		</dependency>
 		<!-- Source:
@@ -54,7 +54,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>5.0.10.RELEASE</version>
+			<version>5.3.20</version>
 			<scope>compile</scope>
 		</dependency>
 
@@ -63,7 +63,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
-			<version>5.0.10.RELEASE</version>
+			<version>5.3.20</version>
 			<scope>compile</scope>
 		</dependency>
 
