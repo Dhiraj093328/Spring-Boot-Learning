@@ -22,10 +22,10 @@ public class StudentController {
         return "student-list";
     }
 
-    @GetMapping("/students-form")
+    @GetMapping("/student-form")
     public String showStudentForm(Model model) {
         Student student = new Student();
-        model.addAttribute("student", student);
+        model.addAttribute("students", student);
         return "student-form";
     }
 
