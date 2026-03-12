@@ -21,7 +21,7 @@ public class LogingAspect {
 	public void logAfter()
 	{
 		
-		System.out.println(" After method Execution.....");
+		System.out.println("jo After method Execution.....");
 	}
 	@Around("execution(* com.dhiraj.waghmare.service.*.*(..))")
 	public void logAround()
